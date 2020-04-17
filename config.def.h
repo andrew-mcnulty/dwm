@@ -50,8 +50,8 @@ static Key keys[] = {
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
 	{ MODKEY,                       XK_space,  zoom,           {0} },
-	{ MODKEY,             XK_q,      killclient,     {0} },
-	{ MODKEY,             XK_f,      togglefullscr,  {0} },
+	{ MODKEY,             			XK_q,      killclient,     {0} },
+	{ MODKEY,             			XK_f,      togglefullscr,  {0} },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
@@ -61,7 +61,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_7,                      6)
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
-	{ MODKEY|ShiftMask,             XK_q,      self_restart,           {0} },
+	{ MODKEY|ShiftMask,             XK_q,      self_restart,  {0} },
 };
 
 /* button definitions */
