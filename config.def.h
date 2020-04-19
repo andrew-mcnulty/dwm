@@ -1,11 +1,11 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 4;        /* border pixel of windows */
+static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=10", "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
+static const char *fonts[]          = { "monospace:size=12", "Symbola:pixelsize=12:antialias=true:autohint=true" };
 
 #include "/home/asm/.cache/wal/colors-wal-dwm.h"
 #include "selfrestart.c"
